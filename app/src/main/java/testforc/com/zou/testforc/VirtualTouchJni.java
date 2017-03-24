@@ -6,12 +6,12 @@ package testforc.com.zou.testforc;
 
 public class VirtualTouchJni {
     static {
-        System.loadLibrary("minitouch_test");
+        System.loadLibrary("minitouch-client");
     }
-    public native void initTouchEnv();
     public native void down(int id ,int x ,int y,int press);
     public native void move(int id ,int x ,int y,int press);
     public native void up(int id);
     public native void commit();
-    public native void closeTouchEnv();
+    public native void connect();
+    public native void close();
 }

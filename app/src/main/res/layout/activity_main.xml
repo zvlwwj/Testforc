@@ -13,5 +13,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/tv"/>
+    <Button
+        android:layout_below="@id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="connect"
+        android:id="@+id/btn_connect"/>
+    <Button
+        android:layout_below="@id/btn_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="down"
+        android:id="@+id/btn_down"/>
+    <Button
+        android:layout_below="@id/btn_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="commit"
+        android:id="@+id/btn_commit"/>
+    <Button
+        android:layout_below="@id/btn_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="close"
+        android:id="@+id/btn_close"/>
 </RelativeLayout>
